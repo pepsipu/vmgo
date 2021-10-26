@@ -14,6 +14,6 @@ app.use(expressLogger);
 
 app.listen(port, () => {
   logger.info(
-    `Express server has started listening on port ${chalk.red(port)}.`
+    `Express server has started listening on port ${chalk.red(port)}.`,
   );
 });
